@@ -1,6 +1,6 @@
 //Create a new record
 const createRecord = () => {
-    /* Use the SMLHttpRequest object to send a POST request to the server*/
+    /* Use the XMLHttpRequest object to send a POST request to the server*/
     const request = new XMLHttpRequest();
 
     request.open('POST', '/api/records', true);
